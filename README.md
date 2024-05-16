@@ -3,12 +3,34 @@ Refactor version of TESlite
 
 
 ## System features
-- TEI
-  - Legal Basis
-  - Mabuhay Lane, IRD, CTD
-- NON-TEI
-  - Category
-  - Legal Basis (optional)
+- Exemption
+  - Application Type
+    - TEI
+      - Port of Discharge
+      - Shipment Type
+      - Shipment Description
+      - AWL/BL Number
+      - AWL/BL Date
+      - Other Information
+      - Filing Type
+      - Legal Basis
+        - Documentary Requirements
+        - Conditions
+        - Grants
+    - NON-TEI
+      - Category
+        - Documentary Requirements
+      - Legal Basis
+      - Division
+  - Action Officer
+  - Consignee
+  - Brokers (optional)
+  - Representatives (optional)
+  - Payment
+    - Official Receipt Number
+    - Official Receipt Date
+    - Cashier
+    - Amount
 - PDF Form generation
   - Indorsement
   - DOF-RO Form 91
@@ -18,6 +40,12 @@ Refactor version of TESlite
   - Registration
     - Approve
     - Disapprove
+  - Receive
+  - Compliance
+  - Terminate
+  - Sign
+  - Pick-Up
+  - Release
 - Registration
   - Consignee
   - Broker
